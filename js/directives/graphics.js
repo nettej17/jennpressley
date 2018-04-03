@@ -1,4 +1,4 @@
-angular.module('todomvc')
+angular.module('jeanetteApp')
     .directive('jGraphics', function () {
         'use strict';
 
