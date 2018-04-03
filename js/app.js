@@ -27,7 +27,7 @@ angular.module('jeanetteApp', ['ngRoute','jeanettePartials'])
                 controller: 'JeanetteCtrl'
             })
             .when('/website', {
-                templateUrl: '/partials/footer.html',
+                templateUrl: '/partials/website.html',
                 controller: 'JeanetteCtrl'
             })
 			.otherwise({
