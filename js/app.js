@@ -26,6 +26,10 @@ angular.module('jeanetteApp', ['ngRoute','jeanettePartials'])
                 templateUrl: '/partials/graphics.html',
                 controller: 'JeanetteCtrl'
             })
+            .when('/website', {
+                templateUrl: '/partials/footer.html',
+                controller: 'JeanetteCtrl'
+            })
 			.otherwise({
 				redirectTo: '/'
 			});
